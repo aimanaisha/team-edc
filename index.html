@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team EDC</title>
+    <link rel="icon" href="img/edc2.png" type="png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.3.0/dist/flowbite.min.css"/>
+    <script src="https://unpkg.com/@themesberg/flowbite@1.3.0/dist/flowbite.bundle.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+
+<body>
+
+
+    <nav id="navbar" class="bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-800">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <a href="#" class="flex">
+                <img src="img/edc.png" class="w-16 h-16">
+                <span class="self-center text-lg font-semibold text-indigo-300 whitespace-nowrap dark:text-white">EDC |
+                    NITD</span>
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="mobile-menu-2" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="https://www.edcnitd.co.in/"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">HOME</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.edcnitd.co.in/esummit/"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">E-SUMMIT'21</a>
+                    </li>
+                    <li>
+                        <a href="https://www.edcnitd.co.in/event/"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">EVENT
+                            REGESTRATION</a>
+                    </li>
+                    <li>
+                        <a href="https://www.edcnitd.co.in/EQuest/"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">E-QUEST</a>
+                    </li>
+                    <li>
+                        <a href="https://www.edcnitd.co.in/sotm/"
+                            class="block py-2 pl-3 pr-4 text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">SOTM</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-indigo-300 md:p-0 dark:text-white"
+                            aria-current="page">OUR TEAM</a>
+                    </li>
+                    <li>
+                        <a href="https://nitdgp.ac.in/iic/"
+                            class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">IIC</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-gray-200 transition bg-gray-800 body-font">
+        <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
+
+            <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto">
+                <a class="mr-5 transition md:mr-8 lg:mr-20 hover:text-indigo-300" href="#office-bearers">OFFICE
+                    BEARERS</a>
+                <a class="mr-5 transition md:mr-8 lg:mr-20 hover:text-indigo-300" href="#senior-c">SENIOR
+                    COORDINATORS</a>
+                <a class="mr-5 transition md:mr-8 lg:mr-20 hover:text-indigo-300" href="#junior-c">JUNIOR
+                    COORDINATORS</a>
+                <a class="mr-5 transition md:mr-8 lg:mr-20 hover:text-indigo-300" href="#alumni">ALUMNI</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <section id="office-bearers" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col w-full mb-20 text-center">
+                <h1 class="mb-4 font-mono text-5xl font-semibold text-cyan-800 title-font">Office Bearers</h1>
+
+            </div>
+            <div class="flex flex-wrap -m-2">
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Amit Bose</h2>
+                            <p class="text-gray-700">President</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Sayan Pal</h2>
+                            <p class="text-gray-700">General Secretary</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Abhishek Bose</h2>
+                            <p class="text-gray-700">Treasurer</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Amish Bharti</h2>
+                            <p class="text-gray-700">Tech Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Amish Bharti</h2>
+                            <p class="text-gray-700">Tech Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Subhajoy Mahanta</h2>
+                            <p class="text-gray-700">Web-D Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Rahul Mohanta</h2>
+                            <p class="text-gray-700">Operations Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Varsha Tanti</h2>
+                            <p class="text-gray-700">PR & Outreach Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Durgesh Kumar Jha</h2>
+                            <p class="text-gray-700">IIIC Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Akash Chowbe</h2>
+                            <p class="text-gray-700">Operations Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Shriya Das</h2>
+                            <p class="text-gray-700">Web-D Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Prakhar Srivastav</h2>
+                            <p class="text-gray-700">IIIC Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Rahul Lodha</h2>
+                            <p class="text-gray-700">Sponsership Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Riya Singh</h2>
+                            <p class="text-gray-700">Events Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Kriti Kumari</h2>
+                            <p class="text-gray-700">Tech Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Shashikant Tiwari</h2>
+                            <p class="text-gray-700">Events Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Abhishek Dey</h2>
+                            <p class="text-gray-700">ATH Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2 md:mx-auto">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Vivek Sharma</h2>
+                            <p class="text-gray-700">Sponsership Head</p>
+                            <span class="inline-flex mt-3">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="senior-c" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col w-full mb-20 text-center">
+                <h1 class="mb-4 font-mono text-5xl font-semibold text-cyan-800 title-font">Senior Coordinators</h1>
+
+            </div>
+            <div class="flex flex-wrap -m-2">
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Abha jha</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Aditi Sharon</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Aman Kumar</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Aniket Verma</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Ankit Raj</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Ashish Jha</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Devansh Goyle</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Jishnu Das</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Pushpanjali Bharti</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Raj Gaurav</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Ritabrata Ganguly</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Senbotika Bose</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Shivam Yadav</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Sukanya Datta</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Yash Sinha</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="junior-c" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col w-full mb-20 text-center">
+                <h1 class="mb-4 font-mono text-5xl font-semibold text-cyan-800 title-font">Junior Coordinators</h1>
+            </div>
+            <div class="flex flex-wrap -m-2">
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Aishiki Ghosh</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Akash Singh</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Amarjit Ghosh</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Anagha Nagarjan</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Ashutosh Rathore</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Dhruv Pant</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Adnan Hussain</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Mehul Menon</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Naveen S G</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Neha Tulshyan</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Purvi Binani</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Ritabrata Das</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Ritesh sharma</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Saathwika Satya</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Sakshi</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Sankalp Mohanty</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Sattwik Mohanti</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Shaily Shekar</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Shubham samanta</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Soumajjal Kundu</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Subham Paul</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Supratim Dey</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Tushar yadav</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full p-2 lg:w-1/3 md:w-1/2">
+                    <div class="flex items-center h-full p-4 border border-2 border-gray-600 rounded-lg bg-clip-padding"
+                        id="card">
+                        <img alt="team"
+                            class="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png">
+                        <div class="flex-grow">
+                            <h2 class="font-medium text-gray-900 title-font">Rodrigo Monchi</h2>
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500 hover:text-gray-900">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="alumni" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col w-full mb-20 text-center">
+                <h1 class="mb-4 font-mono text-5xl font-semibold text-cyan-800 title-font">Meet Our Alumni</h1>
+                <p class="mx-auto text-base text-xl leading-relaxed text-slate-500 lg:w-2/3">Batch of 2021</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Anik Saha</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Bejjanki Sreekar</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Hari Shankar</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Niladri Ghosh</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Ravi Swaroop</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Rima Roy</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Shashwat Srivastava</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="flex flex-col items-center h-full text-center" id="card">
+                        <img alt="team" class="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                            src="https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=">
+                        <div class="w-full">
+                            <h2 class="text-lg font-medium text-gray-900 title-font">Shreyan Datta</h2>
+
+                            <span class="inline-flex mt-2">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5 text-teal-800"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="flex justify-end">
+        <a href="#navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 m-5 text-gray-700" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" />
+            </svg>
+        </a>
+    </div>
+    <footer class="text-gray-400 bg-gray-900 body-font ">
+        <div
+            class="container flex flex-col flex-wrap px-6 py-12 mx-auto md:items-center lg:justify-around md:flex-row md:flex-nowrap">
+            <div class="flex-shrink-0 mx-auto text-center w-72 md:mx-0 md:text-left md:w-36 xl:w-72 xl:pl-16">
+                <a class="flex items-center justify-center font-medium text-white title-font md:justify-start">
+                    <img src="img/edc.png" class="w-28 h-28">
+                </a>
+                <p class="text-sm text-gray-500 ">Entrepreneurship Development Cell <br> NIT Durgapur</p>
+            </div>
+            <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+                <div class="w-full px-4 lg:w-6/12 md:w-7/12">
+                    <h1 class="mb-3 text-2xl font-medium tracking-widest text-center text-white title-font">CONTACT US
+                    </h1>
+                    <nav class="mx-auto mb-10 leading-8 tracking-wide list-none">
+                        <li>
+                            <div class="flex justify-center">
+                                <a class="text-gray-400"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                            clip-rule="evenodd" />
+                                    </svg></a><span>Mahatma Gandhi Avenue,</span>
+                            </div>
+                        </li>
+                        <li class="flex justify-center">
+                            <a class="text-gray-400">A-Zone, Durgapur, West Bengal</a>
+                        </li>
+                        <li class="flex justify-center text-gray-400">
+                            Durgapur: 713209
+
+                        </li>
+                        <li>
+                            <div class="flex justify-center">
+                                <a class="text-gray-400"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 m-1"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                    </svg></a> <span> :+91 96096 04777</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex justify-center">
+                                <a class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="w-5 h-5 m-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                    </svg></a> <span>: edcnitd.official@gmail.com
+                                </span>
+                            </div>
+                        </li>
+                    </nav>
+                </div>
+                <div class="w-full px-4 text-center lg:w-1/4 md:w-5/12">
+                    <h2 class="mb-3 text-2xl font-medium tracking-widest text-white title-font">USEFUL LINKS</h2>
+                    <nav class="mb-10 text-lg list-none">
+                        <li>
+                            <a class="text-gray-400 hover:text-white">Home</a>
+                        </li>
+                        <li>
+                        </li>
+                        <a class="text-gray-400 hover:text-white">E-Summit'21</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white">IIC</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white">Event Registrations</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white">E-Quest</a>
+                        <li>
+                            <a class="text-gray-400 hover:text-white">Startup of the Month</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-800 bg-opacity-75">
+            <div class="container flex flex-col flex-wrap content-center px-5 py-4 sm:flex-row">
+                <p class="mt-4 mb-2 text-sm text-gray-400 sm:ml-6 sm:mt-0">© 2022 EDC. All Rights Reserved.
+                </p>
+                <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                    <a class="text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        ScrollReveal().reveal('#card', {
+            reset: true,
+            delay: 300
+        })
+    </script>
+</body>
+
+</html>
